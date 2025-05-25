@@ -1,0 +1,228 @@
+body{
+    background-color: black;
+    main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1{
+        font-size: 40px;
+        font-family: "Cal Sans", sans-serif;
+        color: #adff2f;
+        margin-bottom: 50px;
+        }
+    label{
+        color: #adff2f;
+        font-size: 25px;
+        font-family: "Cal Sans", sans-serif;
+    }
+    .nome::before{
+        content: "👤 "
+    }
+    .senha::before{
+        content: "🔒 ";
+    }
+    input{
+        width: 300px;
+        height: 50px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        border: 2px solid #adff2f;
+        border-radius: 12px;
+        font-size: 15px;
+    }
+    .btns{
+        .btn01{
+            width: 120px;
+            height: 40px;
+            border-radius: 10px;
+            border: 2px solid rgb(0, 0, 0);
+            background-color: #adff2f;
+            font-family: "Cal Sans", sans-serif;
+            font-size: 15px;
+            transition: 0.5s ease-in-out;
+            &:hover{
+                transform: scale(1.08);
+                &::after{
+                    content: " 👍";
+                }
+            }
+
+        }
+        .btn02{
+            margin-left: 5px;
+            width: 120px;
+            height: 40px;
+            border-radius: 10px;
+            border: 2px solid #adff2f ;
+            background-color: black;
+            color: #adff2f;
+            font-size: 15px;
+            font-family: "Cal Sans", sans-serif;
+            transition: 0.5s ease-in-out;
+            &:hover{
+                transform: scale(1.08);
+                &::after{
+                    content: " 👎";
+                }
+            }
+        }
+    }
+    a{
+        color:#adff2f;
+        font-size: 18px;
+        font-family: "Cal Sans", sans-serif;
+        margin-top: 15px;
+        &:hover{
+            color: white;
+        }
+    }
+}
+}
+
+@media (max-width: 768px) {
+    body{
+    background-color: black;
+    main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1{
+        font-size: 32px;
+        font-family: "Cal Sans", sans-serif;
+        color: #adff2f;
+        margin-bottom: 40px;
+        }
+    label{
+        color: #adff2f;
+        font-size: 20px;
+        font-family: "Cal Sans", sans-serif;
+    }
+    input{
+        width: 260px;
+        height: 45px;
+        margin-top: 8px;
+        margin-bottom: 12px;
+        border: 2px solid #adff2f;
+        border-radius: 12px;
+        font-size: 15px;
+    }
+    .btns{
+        .btn01{
+            width: 100px;
+            height: 35px;
+            border-radius: 10px;
+            border: 2px solid rgb(0, 0, 0);
+            background-color: #adff2f;
+            font-family: "Cal Sans", sans-serif;
+            font-size: 13px;
+            transition: 0.5s ease-in-out;
+            &:hover{
+                transform: scale(1.08);
+            }
+
+        }
+        .btn02{
+            margin-left: 5px;
+            width: 100px;
+            height: 35px;
+            border-radius: 10px;
+            border: 2px solid #adff2f ;
+            background-color: black;
+            color: #adff2f;
+            font-size: 13px;
+            font-family: "Cal Sans", sans-serif;
+            transition: 0.5s ease-in-out;
+            &:hover{
+                transform: scale(1.08);
+            }
+        }
+    }
+    a{
+        color:#adff2f;
+        font-size: 18px;
+        font-family: "Cal Sans", sans-serif;
+        margin-top: 15px;
+        &:hover{
+            color: white;
+        }
+    }
+}
+}
+}
+
+@media (max-width: 480px) {
+    body{
+    background-color: black;
+    main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1{
+        font-size: 28px;
+        font-family: "Cal Sans", sans-serif;
+        color: #adff2f;
+        margin-bottom: 30px;
+        }
+    label{
+        color: #adff2f;
+        font-size: 14px;
+        font-family: "Cal Sans", sans-serif;
+    }
+    input{
+        width: 200px;
+        height: 35px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        border: 2px solid #adff2f;
+        border-radius: 12px;
+        font-size: 10px;
+    }
+    .btns{
+        .btn01{
+            width: 80px;
+            height: 30px;
+            border-radius: 10px;
+            border: 2px solid rgb(0, 0, 0);
+            background-color: #adff2f;
+            font-family: "Cal Sans", sans-serif;
+            font-size: 10px;
+            transition: 0.5s ease-in-out;
+            &:hover{
+                transform: scale(1.08);
+            }
+
+        }
+        .btn02{
+            margin-left: 5px;
+            width: 80px;
+            height: 30px;
+            border-radius: 10px;
+            border: 2px solid #adff2f ;
+            background-color: black;
+            color: #adff2f;
+            font-size: 10px;
+            font-family: "Cal Sans", sans-serif;
+            transition: 0.5s ease-in-out;
+            &:hover{
+                transform: scale(1.08);
+            }
+        }
+    }
+    a{
+        color:#adff2f;
+        font-size: 18px;
+        font-family: "Cal Sans", sans-serif;
+        margin-top: 15px;
+        &:hover{
+            color: white;
+        }
+    }
+}
+}
+}
